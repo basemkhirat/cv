@@ -1,0 +1,33 @@
+@font-face {
+	font-family: "dubai";
+	src: url(./fonts/dubai.ttf) format("truetype");
+}
+
+
+* {
+    direction: rtl;
+    text-align: right;
+    font-family: dubai !important;
+}
+
+body {
+    font-family: dubai;
+}
+
+
+.c-brand__first-word {
+    font-size: 30px;
+}
+
+.c-brand__second-word {
+    font-size: 50px;
+    margin: 20px 0;
+    line-height: 55px;
+}
+
+.c-avatar {
+    text-align: center;
+}
+.c-avatar__img {
+    width: 150px;
+}
