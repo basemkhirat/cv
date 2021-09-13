@@ -31,3 +31,13 @@ body {
 .c-avatar__img {
     width: 150px;
 }
+
+@media (max-width: 500px) {
+    .c-brand__first-word, .c-brand__second-word {
+        text-align: center !important;
+    }
+
+    .c-header__contact *  {
+        text-align: center !important;
+    }
+  }
